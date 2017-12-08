@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>repl.it</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+        <link href="index.css" rel="stylesheet" type="text/css" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <title>Capstone Bitcoin Api for Thinkful</title>
+    </head>
+
+    <body>
+      <nav>
+        <ul>
+          <li><a data-page="start-page" href="#">Start</a></li>
+          <li><a data-page="price-page" href="#">Market price</a></li>
+          <li><a data-page="history-page" href="#">Historic data</a></li>
+          <li><a data-page="calc-page" href="#">Calculate / Exchange</a></li>
+          
+        </ul>
+        
+      </nav>
+        <section class="start-page page">
+            <form class="start" name="start">
+                <h1 class="welcomeMessage"></h1>
+                <h2 class="instructions"></h2>
+                <ul class="option"></ul>
+                    <button class="options" id="options" name="options">Submit</button>
+            </form>
+        </section>
+        <section class="price-page page">
+            <form class="price" name="price">
+                <h3 class="currentPrice"></h3>
+                <p class="price"></p>
+                <button class="restart" id="restart">Restart</button>
+                <button class="refresh" id="refresh">Refresh</button>
+            </form>
+        </section>
+        <section class="history-page page">
+            <form class="dataHistorical" name="dataHistorical">
+                <h4 class="dataHistorical"></h4>
+                <button class="startDate" id="startDate" type="submit">Start Date</button>
+                <button class="endDate" id="endDate" type="submit">End Date</button>
+                <button class="restart" id="restart">Restart</button>
+                <button class="refresh" id="refresh">Refresh</button>
+            </form>
+        </section>
+
+        <section class="calc-page page">
+            <form class="calcExchange" name="calcExchange">
+                <h5 class="calc"></h5>
+                <button class="calculate" id="calculate" type="submit">Submit</button>
+
+                <button class="restart" id="restart">Restart</button>
+                <button class="refresh" id="refresh">Refresh</button>
+
+            </form>
+        </section>
+
+        <script src="index.js"></script>
+    </body>
+</html>
