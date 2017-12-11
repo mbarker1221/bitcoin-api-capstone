@@ -1,0 +1,8 @@
+// TASKS
+  // get rid of buttons
+  // link to required api from each page
+  // use css to make site pretty
+  // update nav bar css
+  // on page load show start page
+  // get data from apis
+  // 
